@@ -37,6 +37,22 @@ docker compose up --build
 # Frontend at http://localhost:5173 (dev) or http://localhost:8081 (nginx)
 # Backend at  http://localhost:8080
 ```
+## 🖼️ Screenshots
+
+### 🔗 Home Page
+![Home Page](./screenshots/home.png)
+
+### ✂️ Shorten URL 7 digits code
+![Shorten URL](./screenshots/shorten_url_7_dig.png)
+
+### ✂️ Shorten URL 5 digits code
+![Shorten URL](./screenshots/shorten_url.png)
+
+### ↪️ Redirect Example
+![Redirect](./screenshots/redirect.png)
+
+### backend running interface
+![Backend](./screenshots/backend.png)
 
 ## Notes
 - H2 is file-based (`./data/urlshortener`), so links persist between runs.
